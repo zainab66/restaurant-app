@@ -20,6 +20,9 @@ export default function AboutUs() {
             pharetra adipiscing ultrices vulputate posuere tristique. In sed
             odio nec aliquet eu proin mauris et.
           </p>
+          <button type="button" className="custom__button">
+            Know More
+          </button>
         </div>
       </div>
     </div>
