@@ -18,7 +18,7 @@ export default function SpecialMenu() {
             {data.wines.map((wine, index) => (
               <MenuItem
                 key={wine.title + index}
-                title={wine.price}
+                title={wine.title}
                 price={wine.price}
                 tags={wine.tags}
               />
@@ -34,7 +34,7 @@ export default function SpecialMenu() {
             {data.cocktails.map((cocktail, index) => (
               <MenuItem
                 key={cocktail.title + index}
-                title={cocktail.price}
+                title={cocktail.title}
                 price={cocktail.price}
                 tags={cocktail.tags}
               />
