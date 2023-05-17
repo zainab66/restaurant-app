@@ -19,6 +19,7 @@ export default function SpecialMenu() {
               <MenuItem
                 key={wine.title + index}
                 title={wine.price}
+                price={wine.price}
                 tags={wine.tags}
               />
             ))}
@@ -34,6 +35,7 @@ export default function SpecialMenu() {
               <MenuItem
                 key={cocktail.title + index}
                 title={cocktail.price}
+                price={cocktail.price}
                 tags={cocktail.tags}
               />
             ))}
