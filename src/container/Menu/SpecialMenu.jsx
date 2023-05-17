@@ -16,7 +16,11 @@ export default function SpecialMenu() {
           <p className="app__specialMenu_menu_heading">Wine & Beer</p>
           <div className="app__specialMenu_menu_items">
             {data.wines.map((wine, index) => (
-              <p>{wine.title}</p>
+              <MenuItem
+                key={wine.title + index}
+                title={wine.price}
+                tags={wine.tags}
+              />
             ))}
           </div>
         </div>
@@ -27,7 +31,11 @@ export default function SpecialMenu() {
           <p className="app__specialMenu_menu_heading">Wine & Beer</p>
           <div className="app__specialMenu_menu_items">
             {data.cocktails.map((cocktail, index) => (
-              <p>{cocktail.title}</p>
+              <MenuItem
+                key={cocktail.title + index}
+                title={cocktail.price}
+                tags={cocktail.tags}
+              />
             ))}
           </div>
         </div>
