@@ -16,6 +16,10 @@ There are features such as image and video overlays, an embedded video shwocasin
 
 There are additional features such as registration, table booking and the ability to view menu which I aim to implement moving forwards to expand the app.
 
+The admin-dashboard has been deployed on Render.com can be viewed here:
+
+https://restautrant-app.onrender.com/
+
 ## Tech Stack
 
 - React
